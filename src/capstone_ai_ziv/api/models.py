@@ -1,3 +1,5 @@
+# src/capstone_ai_ziv/api/models.py
+
 from pydantic import BaseModel, Field
 
 class ChatRequest(BaseModel):

@@ -1,3 +1,5 @@
+# src/capstone_ai_ziv/core/prompt_loader.py
+
 from pathlib import Path
 
 PROMPTS_DIR = Path(__file__).parent.parent / "prompts"
