@@ -35,9 +35,12 @@ dev = [
     "ruff>=0.5.0",
 ]
 
-[tool.pytest.init_options]
+[tool.pytest.ini_options]
 asyncio_mode = "auto"
 testpaths = ["tests"]
+markers = [
+    "eval: hits the real Anthropic API; costs money and needs a key",
+]
 
 [tool.ruff]
 target-version = "py311"

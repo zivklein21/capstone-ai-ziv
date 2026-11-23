@@ -1,4 +1,5 @@
 # tests/unit/test_setup.py
+
 """Scaffold smoke tests - these fail loudly if the environment is wrong. """
 
 
